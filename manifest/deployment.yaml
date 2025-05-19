@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: 100foldtechnologies/planning-app:77f6d1ab4e3b09353c55d4f381ce74f74ef9664d
+        image: 100foldtechnologies/planning-app:9a6646e414530dd505597fd30fbbc95636bb00de
         ports:
         - containerPort: 3000
