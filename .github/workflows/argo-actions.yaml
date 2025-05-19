@@ -94,7 +94,7 @@ jobs:
                 git checkout main
                 git pull origin main
                 git add .
-                git commit -m "Update image to my-app:${{ github.sha }}"
+                git commit -m "Update image to planning-app:${{ github.sha }}"
                 git push origin main
 
             - name: Refresh ArgoCD App and Sync
