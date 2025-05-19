@@ -1,7 +1,7 @@
 # GitOps CI/CD with GitHub Actions and ArgoCD
 
 # Requirements
-1. GitHub Actions
+1. GitHub Actions (GHA)
 2. ArgoCD
 3. Cloud Linux Instance (since GitHub Actions runs in the cloud) - AWS EC2 Ubuntu - t3.medium
 Running Minikube locally for creating a pipeline using GitHub Actions isn't feasible due to the nature of GitHub Actions itself. GitHub Actions runs in a cloud environment provided by GitHub, not on your local machine.
